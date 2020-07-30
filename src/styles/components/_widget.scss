@@ -1,6 +1,7 @@
 .widget {
     background: $lightBlue;
     margin-bottom: $xl-size;
+    overflow: auto;
 }
 
 .widget-header {
