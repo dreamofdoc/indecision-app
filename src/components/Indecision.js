@@ -3,7 +3,8 @@ import AddOption from './AddOption'
 import Options from './Options'
 import Action from "./Action"
 import Header from "./Header"
-import OptionModal from "./OptionModal";
+import OptionModal from "./OptionModal"
+import Footer from './Footer'
 
 export default class Indecision extends React.Component {
     state = {
@@ -78,6 +79,7 @@ export default class Indecision extends React.Component {
                         <AddOption handleAddOption={this.handleAddOption} />
                     </div>
                 </div>
+                <Footer />
                 <OptionModal
                     selectedOption={this.state.selectedOption}
                     handleClearSelectedOption={this.handleClearSelectedOption}
